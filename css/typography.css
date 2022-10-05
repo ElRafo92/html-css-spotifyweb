@@ -1,0 +1,18 @@
+/* ==========================
+=============================
+          TYPOGRAPHY
+=============================
+=============================*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.title-color-1 {
+    color: white;
+}
+
+.title-color-2 {
+    color: var(--sub-title);
+}

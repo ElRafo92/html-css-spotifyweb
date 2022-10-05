@@ -3,3 +3,43 @@
            COMMON
 =============================
 =============================*/
+
+/*--------------------
+----------------------
+       UTILITY
+----------------------
+----------------------*/
+
+.row {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+/*--------------------
+----------------------
+       RULES
+----------------------
+----------------------*/
+
+.container-box {
+    height: calc(100% - 90px);
+}
+
+body {
+    height: 100vh;
+}

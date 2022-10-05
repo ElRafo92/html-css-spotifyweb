@@ -3,3 +3,8 @@
            FOOTER
 =============================
 =============================*/
+
+footer {
+    height: 90px;
+    background-color: var(--footer-color);
+}

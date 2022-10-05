@@ -16,3 +16,7 @@ body {
 .title-color-2 {
     color: var(--sub-title);
 }
+
+.font-size-3 {
+    font-size: 1rem;
+}

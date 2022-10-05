@@ -8,5 +8,53 @@ main {
     background-color: var(--main-color);
     width: calc(100% - 48px);
     overflow-y: auto;
-    padding-top: 120px;
+    padding-top: 7.5rem;
+}
+
+/*--------------------
+----------------------
+      CATEGORIES 
+----------------------
+----------------------*/
+
+.categories ul {
+    justify-content: center;
+}
+
+.categories li {
+    width: calc(100% / 4);
+    padding: 22px 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+/*--------------------
+----------------------
+    RECENTLY PLAYED
+----------------------
+----------------------*/
+
+.recently-played .songs {
+    width: calc(100% / 2);
+}
+
+/*--------------------
+----------------------
+    CREATED FOR
+----------------------
+----------------------*/
+
+.created-for .daily-mix {
+    width: calc(100% / 2);
+}
+
+/*--------------------
+----------------------
+      ARTISTS 
+----------------------
+----------------------*/
+
+.artists .artist-name {
+    width: calc(100% / 2);
 }

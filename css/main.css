@@ -8,4 +8,5 @@ main {
     background-color: var(--main-color);
     width: calc(100% - 48px);
     overflow-y: auto;
+    padding-top: 120px;
 }

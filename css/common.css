@@ -44,7 +44,7 @@ body {
     height: 100vh;
 }
 
-img {
+.img {
     width: 13.375rem;
     height: 13.375rem;
     object-fit: cover;

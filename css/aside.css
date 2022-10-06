@@ -7,4 +7,5 @@
 aside {
     background-color: black;
     width: 48px;
+    flex-direction: column;
 }

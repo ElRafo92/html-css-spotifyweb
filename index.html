@@ -31,16 +31,35 @@
 
         <aside class="row">
 
-            <div class="logo">
+            <div class="col logo">
                 <img src="img/logo-small.svg" alt="">
             </div>
 
-            <nav class="home">
-
+            <nav class="col home">
+                <img src="img/home.svg" alt="">
+                <img src="img/search.svg" alt="">
+                <img src="img/libreria.svg" alt="">
             </nav>
 
-            <div class="profile">
+            <nav class="col playlist">
+                <div class="add-playlist">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
 
+                <div class="playlist-name">
+                    <ul>
+                        <li>name playlist</li>
+                        <li>name playlist</li>
+                        <li>name playlist</li>
+                        <li>name playlist</li>
+                        <li>name playlist</li>
+                        <li>name playlist</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="col profile">
+                <img src="img/profile.svg" alt="">
             </div>
 
         </aside>
@@ -205,7 +224,63 @@
 
     </div>
 
-    <footer>
+    <footer class="flex">
+
+        <div class="row between">
+
+            <div class="col footer-left flex">
+
+                <div class="actual-song flex">
+
+                    <img src="img/sinister.jpeg" alt="">
+
+                    <div class="info">
+                        <div class="title">
+                            <h3>Sinister</h3>
+                            <small>Brano</small>
+                            <small>Nome</small>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="like">
+
+                    <div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                    <div>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col footer-center">
+                <div class="comand">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="player-bar flex between">
+                    <div class="min">0.25</div>
+                    <hr class="bar">
+                    <div class="min">4.35</div>
+
+                </div>
+            </div>
+
+            <div class="col footer-right flex">
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <hr>
+            </div>
+
+        </div>
 
     </footer>
 

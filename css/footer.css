@@ -7,4 +7,74 @@
 footer {
     height: 90px;
     background-color: var(--footer-color);
+    padding: 1.875rem 0.625rem;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer .footer-left, .footer-right {
+    width: 20%;
+}
+
+footer .footer-center {
+width: 60%;}
+
+footer img {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+/*--------------------
+----------------------
+   FOOTER LEFT
+----------------------
+----------------------*/
+
+.footer-left {
+    align-content: center;
+}
+
+.footer-left .actual-song {
+    align-items: center;
+}
+
+.footer-left h3, small {
+    font-size: 0.625em;
+}
+
+/*--------------------
+----------------------
+   FOOTER LEFT
+----------------------
+----------------------*/
+
+.footer-center .comand {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2.5rem;
+}
+
+.player-bar .bar {
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.player-bar .min {
+    padding: 0  0.625em;
+    font-size: 0.625em;
+}
+
+
+
+
+
+.footer-right hr {
+    width: 50%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
 }

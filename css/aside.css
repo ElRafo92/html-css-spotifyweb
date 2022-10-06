@@ -8,4 +8,20 @@ aside {
     background-color: black;
     width: 48px;
     flex-direction: column;
+    padding: 0.625rem;
+}
+
+aside .logo, .profile {
+    height: 5%;
+}
+
+aside .home {
+    height: 20%;
+    padding: 0.625rem 0;
+}
+
+aside .playlist {
+    flex-grow: 1;
+    overflow-y: hidden;
+
 }
